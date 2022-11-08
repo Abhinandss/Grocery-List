@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <title>Grocery list</title>
+    <link rel="stylesheet" href="asset.css" />
+    <link rel="stylesheet" href="Asset.JSON" />
+    <script src="asset.js"></script>
+  </head>
+  <body>
+    <div id="a">
+      <tr>
+        <h3>Grocery List</h3>
+      </tr>
+    </div>
+    <tr>
+      <button
+        type="button"
+        class="btn btn-secondary btn-lg"
+        onclick="grcrylist()"
+      >
+        Generate List
+      </button>
+    </tr>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th id="sl" scope="col">SL.NO</th>
+          <th id="nm" scope="col">Name</th>
+          <th id="im" scope="col">Image</th>
+          <th id="qt" scope="col">Quantity</th>
+          <th id="un" scope="col">Unit</th>
+          <th id="dp" scope="col">Departments</th>
+          <th id="nt" scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody id="tb"></tbody>
+    </table>
+  </body>
+</html>

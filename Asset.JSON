@@ -1,0 +1,92 @@
+{
+    "Grocery":[{
+    "SLNO":1,
+    "Name":"sugar",
+    "Image":"sugar.jpg",
+   "Quantity":"1kg",
+    "Unit":1,
+    "Departments":"grocery",
+    "Notes":"good product"
+},
+{
+    "SLNO":2,
+    "Name":"rice",
+    "Image":"rice.jpg",
+   "Quantity":"5kg",
+    "Unit":2,
+    "Departments":"grocery",
+    "Notes":"good product"
+},
+{
+    "SLNO":3,
+    "Name":"tomato",
+    "Image":"tomato.jpg",
+   "Quantity":"500kg",
+    "Unit":5,
+    "Departments":"vegetables",
+    "Notes":"good product"
+},
+{
+    "SLNO":4,
+    "Name":"tea powder",
+    "Image":"teapowder.jpg",
+   "Quantity":"3kg",
+    "Unit":4,
+    "Departments":"production",
+    "Notes":"good product"
+},
+{
+    "SLNO":5,
+    "Name":"chilli powder",
+    "Image":"chillipowder.jpg",
+   "Quantity":"4kg",
+    "Unit":5,
+    "Departments":"production",
+    "Notes":"good product"
+},
+{
+    "SLNO":6,
+    "Name":"salt",
+    "Image":"salt.jpg",
+   "Quantity":"2kg",
+    "Unit":4,
+    "Departments":"production",
+    "Notes":"good product"
+},
+{
+    "SLNO":7,
+    "Name":"rava",
+    "Image":"rava.jpg",
+   "Quantity":"1kg",
+    "Unit":2,
+    "Departments":"production",
+    "Notes":"good product"
+},
+{
+    "SLNO":8,
+    "Name":"oil",
+    "Image":"oil.jpg",
+   "Quantity":"1 lit",
+    "Unit":1,
+    "Departments":"production",
+    "Notes":"good product"
+},
+{
+    "SLNO":9,
+    "Name":"coconut oil",
+    "Image":"coconutoil.jpg",
+   "Quantity":"2 lit",
+    "Unit":1,
+    "Departments":"grocery",
+    "Notes":"good product"
+},
+{
+    "SLNO":10,
+    "Name":"corianderpowder",
+    "Image":"corianderpowder.jpg",
+   "Quantity":"1kg",
+    "Unit":1,
+    "Departments":"production",
+    "Notes":"good product"
+}]
+}
